@@ -6,8 +6,8 @@ def swapFileData():
     with open(file2,'r') as b:
         data_b=b.read()
     with open(file1,'w') as c:
-        a.write(data_b)
+        c.write(data_b)
     with open(file2,'w') as d:
-        b.write(data_a)
+        d.write(data_a)
  
 swapFileData()       
